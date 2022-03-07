@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos compuestos</title>
+</head>
+<body>
+
+    <h1>Prácticas HTLM</h1>
+    <h2>Caso Pastelería</h2>
+    <h3>Cliente</h3>
+
+    <label for="Input1"> Direccion Obregon # 38</label>
+    <br>
+    <label for="Input1"> Nuestro teléfono es 4432550975</label>
+    <br>
+    <label for="Input1"> Horarios de atencion: lunes a viernes de 9:00 AM a 7:00 PM y Sábados de 10:00 AM a 5:PM</label>
+    <br>
+
+    <br><br>
+
+    <!--Imágenes -->
+    <img  src ="Elegante.png" width =" 600px " height =" 350px">
+
+    <hr>
+
+    <form onsubmit="alert(' Pedido realizado');"  action="./pasteleriaPastelero.html" id="form1" method="post">
+
+    <!--Formulario para el cliente-->
+    <h2>Formulario</h2><br>
+    <label for="Input1"> Nombre</label>
+    <br>
+    <input type="text" id="Input1" name="Input1">
+    <br>
+    <label for="numero1">Input de número</label>
+    <br>
+    <input type="number" id="numero1" name="numero1">
+    <br>
+    <label for="correo1">Input de Correo</label>
+    <br>
+    <input type="email" id="correo1" name="correo1">
+    <br><br>
+    <hr>
+    
+
+
+
+    <!--Los Sabores del pastelito-->
+
+    <img  src ="./pastel1.jpg" width =" 300px " height =" 350px">
+
+    <h2>Sabores para tu pastel</h2><br>
+    <input type="checkbox" id="s1" name="s1" value="vainilla">
+    <label for="s1">vainilla cuesta 500</label><br>
+    <input type="checkbox" id="s2" name="s2" value="chocolate">
+    <label for="s2">Chocolate cuesta 600</label><br>
+    <input type="checkbox" id="s3" name="s3" value="capuccino">
+    <label for="s3">capuccino cuesta 700</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="moca">
+    <label for="topping3">Moca cuesta 800</label><br><br>
+    
+
+    <!--Los adornos del pastelito-->
+    <img  src ="./adorno1.jpg" width =" 250px " height =" 350px">
+    <img  src ="./adorno2.jpg" width =" 600px " height =" 350px">
+    <h2>Adornos para tu pastel</h2><br>
+    <input type="checkbox" id="s1" name="s1" value="vainilla">
+    <label for="s1">Chispas de chocolate cuesta 70</label><br>
+    <input type="checkbox" id="s2" name="s2" value="chocolate">
+    <label for="s2"> Glaseado de colores cuesta 50</label><br>
+    <input type="checkbox" id="s3" name="s3" value="capuccino">
+    <label for="s3">Frutas de Temporada cuesta 100</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="moca">
+    <label for="topping3">Figuras de Fondant cuesta 50</label><br><br>
+    <br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset">
+
+    </form>
+
+</body>
+</html>
